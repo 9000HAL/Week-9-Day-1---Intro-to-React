@@ -1,5 +1,7 @@
-/*
 
+//-------> jsxml is what it is
+
+/*
 
 const App = () => {
     //JavaScript XML
@@ -13,7 +15,6 @@ const App = () => {
 export default App
 
 */
-
 
 
 function MyButton() {
@@ -36,4 +37,3 @@ export default function MyApp() {
 
 
 
-//jsxml is what it is
