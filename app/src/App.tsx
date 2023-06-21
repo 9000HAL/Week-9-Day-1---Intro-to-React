@@ -9,7 +9,7 @@ const App = () => {
         return <div>Hello, {name}</div>;
 
   }
-  return <div><h1>Hello, Thieves118!</h1></div>
+  return <div><h1>Gabe's Intro To React HW Ver.1(beta)</h1></div>
 
 };
 

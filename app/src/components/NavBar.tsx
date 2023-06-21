@@ -14,7 +14,7 @@ const NavBar = () => {
             <nav className="navbar bg-body-tertiary">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
-                        <img src="" alt="CT_Logo" width="30" height="24" class="d-inline-block align-text-top"></img>
+                        <img src="app/public/img/ct.logo.jpeg" alt="" width="30" height="24" class="d-inline-block align-text-top"></img>
                     </a>
                 </div>
             </nav>
@@ -25,7 +25,7 @@ const NavBar = () => {
 
 
 
-            
+
         </>
 
 
