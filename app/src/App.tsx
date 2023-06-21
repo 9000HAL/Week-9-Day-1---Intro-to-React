@@ -13,7 +13,7 @@ const App = () => {
 export default App
 
 */
-
+//////////////////////////////////////////////////////////////////////////////////////////
 
 
 export default function MyApp() {
@@ -25,15 +25,11 @@ export default function MyApp() {
   );
 }
 
-
-
-
-
-
 function MyOtherButton() {
   function handleClick() {
     alert('You clicked me!');
   }
+
 
   return (
     <button onClick={handleClick}>
@@ -41,4 +37,36 @@ function MyOtherButton() {
     </button>
   );
 }
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+/*
+
+
+export default function MyApp() {
+  return (
+    <div>
+      <h1>Welcome to my app</h1>
+      <MyButton />
+    </div>
+  );
+}
+
+
+
+function MyButton() {
+  return (
+    <button>
+      I'm a button
+    </button>
+  );
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+
+*/
 
