@@ -1,5 +1,5 @@
 const App = () => {
-  //JavaScript XML
+    //JavaScript XML
   const name = "Dylan";
   if (name) {}
   return (
