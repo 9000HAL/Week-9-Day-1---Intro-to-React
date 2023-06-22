@@ -1,36 +1,30 @@
 
 const NavBar = () => {
-    //const items = ['SUPER DUPER BUTTON', 'NOT SO SUPER BUTTON'] ///// follow up rec'g at 00:50
-    return (
-        <>
-            <nav className="navbar bg-body-tertiary">
-                <form className="container-fluid justify-content-start">
-                    <button className="btn btn-outline-success me-2" type="button">Main button</button>
-                    <button className="btn btn-sm btn-outline-secondary" type="button">Other button</button>
-                </form>
-            </nav>
+  //const items = ['SUPER DUPER BUTTON', 'NOT SO SUPER BUTTON'] ///// follow up rec'g at 00:50:00
+  return (
+      <>
+
+          <nav className="navbar bg-body-tertiary">
+              <form className="container-fluid justify-content-start">
+                  <button className="btn btn-outline-success me-2" type="button">Main button</button>
+                  <button className="btn btn-sm btn-outline-secondary" type="button">Other button</button>
+              </form>
+          </nav>
 
 
-            <nav className="navbar bg-body-tertiary">
-                <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
-                        <img src="app/public/img/ct.logo.jpeg" alt="" width="30" height="24" class="d-inline-block align-text-top"></img>
-                    </a>
-                </div>
-            </nav>
+          <nav className="navbar bg-body-tertiary">
+              <div className="container-fluid">
+                  <a className="navbar-brand" href="#">
+                      <img src="app/public/img/ct.logo.jpeg" alt="" width="30" height="24" class="d-inline-block align-text-top"></img>
+                  </a>
+              </div>
+          </nav>
 
-
-
-
-
-
-
-
-        </>
+      </>
 
 
 
-    );
+  );
 };
 
 export default NavBar;
@@ -39,7 +33,9 @@ export default NavBar;
 
 
 
+
 /*
+
 
 /////////////////////////////////////////////////////////////////////////////
 
