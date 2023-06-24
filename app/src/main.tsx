@@ -7,6 +7,10 @@ import NavBar from './components/NavBar' //YESSSSSSSS NO ERRORS
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
 
 
+
+
+
+
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <App/>
