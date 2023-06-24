@@ -8,7 +8,7 @@ const NavBar = () => {
       <>
 
         <nav className="navbar bg-primary" data-bs-theme="dark">
-                    <h1><button>HOME</button></h1>    <b>NEITHER HERE NOR THERE</b>      <h1><button>AWAY</button></h1>
+                    <h1><button>HOME</button></h1>    <b>CLICK ON THE LOGO TO SEE CODING TEMPLE ON TWITTER!</b>      <h1><button>AWAY</button></h1>
          </nav>
 
 
@@ -20,8 +20,8 @@ const NavBar = () => {
           </nav>
           
           <nav className="navbar bg-body-tertiary">
-              <div className="container-fluid">
-                  <a className="navbar-brand" href="#">
+              <div className="container">
+                  <a className="navbar-brand" href="https://twitter.com/codingtemple"a>
                       <img src="./src/assets/ct.logo.jpeg" alt="" width="650" height="350" class="d-inline-block align-text-top"></img>
                   </a>
               </div>
@@ -34,6 +34,10 @@ export default NavBar;
 
 
 // /Users/gabesanchez/Desktop/Week-9-Day-1---Intro-to-React/app/public/img/ct.logo.jpeg
+
+
+//<a className="navbar-brand" href="#">
+
 
 
 
