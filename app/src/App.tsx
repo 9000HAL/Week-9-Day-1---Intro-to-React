@@ -9,7 +9,7 @@ const App = () => {
         return <div>Hello, {name}</div>;
 
   }
-  return <div><h5>Gabe's Intro To React HW Ver.2 : <Not-so-random></Not-so-random> Mode</h5></div>
+  return <div><h5>Gabe's Intro To React HW Ver.2 : Not-so-random Mode</h5></div>
 
 };
 
