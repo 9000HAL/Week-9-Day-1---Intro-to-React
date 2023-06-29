@@ -1,15 +1,19 @@
 //-------> "jsxml is what it is"
 
+import Card from "./components/Card";
+import NavBar from "./components/NavBar";
+
 /////////////////////////////////
 
 const App = () => {
   //JavScript XML
-  const name = "";
-  if (name) {
-        return <div>Hello, {name}</div>;
-
-  }
-  return <div><h5>Gabe's Intro To React HW Ver.2 : Not-so-random Mode</h5></div>
+  
+  return (
+    <div>
+      <h5>Gabe's Intro To React HW Ver.2 : Not-so-random Mode</h5>
+      <NavBar/>
+      <Card/>
+    </div>)
 
 };
 

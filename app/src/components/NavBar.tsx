@@ -19,13 +19,14 @@ const NavBar = () => {
               </form>
           </nav>
           
-          <nav className="navbar bg-body-tertiary">
+          
+          {/* <nav className="navbar bg-body-tertiary">
               <div className="container">
                   <a className="navbar-brand" href="https://twitter.com/codingtemple"a>
                       <img src="./src/assets/ct.logo.jpeg" alt="" width="650" height="350" class="d-inline-block align-text-top"></img>
                   </a>
               </div>
-          </nav>
+          </nav> */}
       </>
     );
 };
